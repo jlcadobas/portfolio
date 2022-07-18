@@ -11,7 +11,7 @@
                                     "Quezon City" +
                                 "</span>" + 
                             "</header>" +
-                            "<p> Automation of gathering data based on their categories. " +
+                            "<p class=\"text-indent\"> Automation of gathering data based on their categories. " +
                                 "It records the tabulated data from a csv file, and stores" +
                                 "the information to a database. </p>" +
                         "</div>" +
@@ -24,32 +24,32 @@
                                     "Quezon City" +
                                 "</span>" + 
                             "</header>" +
-                            "<p> Creation of a website for payment processing platform. Content " +
+                            "<p class=\"text-indent\"> Creation of a website for payment processing platform. Content " +
                                 "Management System (CMS) was used, particularly Wordpress. </p>" +
                         "</div>" + 
 
                         "<div class=\"content-sections border\">" +
                             "<header class=\"line-height\">" +
-                                "Mobile App Dev Intern: March - Present <br>" +
+                                "Mobile Dev Intern: March - Present <br>" +
                                 "<span>" +
                                     "SMOL Budgeting App <br>" +
                                     "Quezon City" +
                                 "</span>" + 
                             "</header>" +
-                            "<p> Creation of a budgeting application, to help users  in handling their money." + 
+                            "<p class=\"text-indent\"> Creation of a budgeting application, to help users  in handling their money." + 
                                 "It gives overview, feedback, graphical representation, reports, and transactions" + 
                                 "of their spending. React Native is the framework used." + 
                         "</div>" +
 
                         "<div class=\"content-sections border\">" +
                             "<header class=\"line-height\">" +
-                                "Mobile App Dev Intern: March - Present <br>" +
+                                "Mobile Dev Intern: March - Present <br>" +
                                 "<span>" +
                                     "SMOL Budgeting App <br>" +
                                     "Quezon City" +
                                 "</span>" + 
                             "</header>" +
-                            "<p> Creation of a budgeting application, to help users  in handling their money." + 
+                            "<p class=\"text-indent\"> Creation of a budgeting application, to help users  in handling their money." + 
                                 "It gives overview, feedback, graphical representation, reports, and transactions" + 
                                 "of their spending. React Native is the framework used." + 
                         "</div>";

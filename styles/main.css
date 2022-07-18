@@ -75,8 +75,8 @@
 
         .display-picture {
 
-            width: 350px;
-            height: 350px;
+            width: 22.5vw;
+            height: 45vh;
         }
 
         .frame {
@@ -88,17 +88,17 @@
 
         .margin-top {
 
-            margin-top: 10%;
+            margin-top: 10vh;
         }
 
         .name {
 
-            font-size: 1.5em;
+            font-size: calc(12px + 0.75em);
         }
 
         .subtitle {
 
-            font-size: 1.25em;
+            font-size: calc(12px + 0.5em);
             text-align: center;
             width: 70%;  
             font-weight: 200; 
@@ -124,8 +124,8 @@
 
         .nav-logo {
 
-            width: 30px;
-            height: 30px;
+            width: 1.5em;
+            height: 1.5em;
         }
 
         /* Add styles to toggle nav of the blue section
@@ -161,7 +161,7 @@
 
         .blue .toggle-styles a {
 
-            font-size: 1.5em;
+            font-size: calc(10px + 0.75em);
             color: var(--yellow);
         }
 
@@ -190,13 +190,12 @@
         header {
 
             font-weight: bold;
+            font-size: calc(10px + 0.25em);
         }
-
-
 
         header span {
 
-            font-weight: normal;
+            font-weight: bold;
         }
 
         .line-height {
@@ -205,11 +204,17 @@
             width: 90%;
         }
 
+        .text-indent {
+
+            text-indent: 1em;
+        }
+
         .border p {
 
             color: white;
-            font-size: 1.25em;
+            font-size: calc(10px + 0.5em);
             width: 90%;
+            text-align: justify;
         }
 
         .border header {
