@@ -5,7 +5,7 @@
 
         var content =   "<div class=\"content-sections border\">" +
                             "<header class=\"line-height\">" +
-                                "Software Development Intern (100 hrs.) <br>" +
+                                "Software Development Intern <br> (100 hrs.) <br>" +
                                 "<span>" +
                                     "Datatrends Co. <br>" +
                                     "Quezon City" +
@@ -18,7 +18,7 @@
 
                         "<div class=\"content-sections border\">" +
                             "<header class=\"line-height\">" +
-                                "Web Development Intern: (300 hrs.) <br>" +
+                                "Web Development Intern: <br> (300 hrs.) <br>" +
                                 "<span>" +
                                     "Datatrends Co. <br>" +
                                     "Quezon City" +
