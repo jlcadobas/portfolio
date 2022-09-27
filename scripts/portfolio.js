@@ -1,7 +1,21 @@
 
-    document.getElementsByClassName("portfolio")[0].addEventListener("click", changeContent);
+    document.getElementsByClassName("portfolio")[0].addEventListener("click", changeToPortfolioContent);
 
-    function changeContent() {
+    function updatePortfolioClasses() {
+
+        document.getElementsByTagName("section")[0].classList.remove("new-width-yellow");
+        document.getElementsByTagName("section")[1].setAttribute("class", "hidden");
+        document.getElementsByTagName("section")[2].classList.remove("new-width-blue");
+        document.getElementsByClassName("toggle-styles")[0].classList.remove("class", "new-toggle-styles-width");
+        document.getElementsByClassName("content")[0].classList.remove("new-content-width");
+
+        document.getElementsByTagName("img")[0].setAttribute("class", "display-picture frame margin-top");
+        document.getElementsByTagName("h1")[0].setAttribute("class", "name");
+        document.getElementsByTagName("p")[0].setAttribute("class", "subtitle");
+        document.getElementsByTagName("nav")[0].setAttribute("class", "");
+    }
+
+    function changeToPortfolioContent() {
 
         var content =   "<div class=\"content-sections\">" +
                             "<header> Macrame Home Decor: makrahangs </header>" +
@@ -44,6 +58,9 @@
                                 "<img class=\"featured-website\" src=\"./images/Write-A-Story.PNG\"/>" +
                             "</a>" +
                         "</div>";
-                        
+    
+        updatePortfolioClasses();
+
+        document.getElementsByClassName("ojt")[0].innerHTML = "OJT";
         document.getElementsByClassName("content")[0].innerHTML = content;
     }
