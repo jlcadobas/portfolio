@@ -5,7 +5,7 @@
 
         document.getElementsByTagName("section")[0].setAttribute("class", "yellow new-width-yellow");
         document.getElementsByTagName("section")[1].setAttribute("class", "side-toggle");
-        document.getElementsByTagName("section")[2].setAttribute("class", "blue new-width-blue");
+        document.getElementsByTagName("section")[2].setAttribute("class", "blue new-width-blue no-scrollbar::-webkit-scrollbar no-scrollbar");
         document.getElementsByClassName("toggle-styles")[0].setAttribute("class", "toggle-styles new-toggle-styles-width");
         document.getElementsByClassName("content")[0].setAttribute("class", "content new-content-width")
 
@@ -33,6 +33,7 @@
                                 "Chimara Neo-Vegan Cafe. Taters is the market leader in movie entertainment snacks and currently " + 
                                 "has 26 branches all over the Philippines." +
                             "</p>" +
+                            "<img src=\"../images/Taters Enterprise Inc. - Company Profile.jpg\" width=\"500\" height=\"500\"></img>" + 
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -57,6 +58,7 @@
                                 "modestly-priced, and higher in nutritional value evidenced by innovations and constant additions to its menu." + 
                                 "In all its endeavors, the delivery of quality products and services has always been TATERS' commitment and ultimate goal." +
                             "</p>" +
+                            "<img src=\"../images/Taters Enterprise Inc. - SEC Registration.jpg\" width=\"290\" height=\"450\"></img>" +
                         "</div>" +
 
                         /*
@@ -148,7 +150,7 @@
                                 "Additionally, we were informed to learn the back-end implementation, specifically UnionBank and Lalamove API integration with the website." +
                             "</p>" +
                             "<p class=\"description\">" +
-                                "Other front-end issues were addressed as well, such as improving markups and other spacing issues." +
+                                "Other front-end issues were addressed as well, such as improving markups, padding, margins and whitespace usage." +
                             "</p>" +
                         "</div>" +
 
@@ -296,7 +298,260 @@
                             "<p class=\"description\">" +
                                 "Take internships as a challenge and an opportunity to learn, this would make the experience more enjoyable, fun and exciting. Use the current knowledge that you have to further intensify and deepen the understanding that you have on different concepts." + 
                             "</p>" +
-                        "</div>";
+                        "</div>" +
+
+                        /*
+                            4. Evidences
+                        */
+
+                        "<h2 id=\"evidence\" class=\"for-smooth-scrolling\"> Evidences </h2>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            // Signed Recommendation Letter
+
+                            "<h3 id=\"signed\" class=\"for-smooth-scrolling\"> Signed Recommendation Letter </h3>" +                          
+                            "<img src=\"../images/Adobas - Endorsement Letter.jpg\" width=\"290\" height=\"450\" />" +
+                        "</div>" +
+                        
+                        "<div class=\"ojt-content\">" +
+
+                            // Acceptance Letter
+
+                            "<h3 id=\"acceptance\" class=\"for-smooth-scrolling\"> Acceptance Letter </h3>" +                            
+                            "<img src=\"../images/Adobas -Acceptance Letter.jpg\" width=\"290\" height=\"450\" />" +
+                        "</div>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            // Waiver Form
+
+                            "<h3 id=\"waiver\" class=\"for-smooth-scrolling\"> Waiver Form </h3>" +
+                            "<p class=\"description\">" +
+                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
+                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
+                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
+                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
+                                "instructing us to install web technologies that we needed to use." +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
+                                "that it will be easier for us to code and implement the tasks given to us." + 
+                            "</p>" +
+                        "</div>" +
+
+
+                        "<div class=\"ojt-content\">" +
+
+                            //  MOA / MOU
+
+                            "<h3 id=\"moa\" class=\"for-smooth-scrolling\"> MOA / MOU </h3>" +
+                            "<p class=\"description\">" +
+                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
+                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
+                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
+                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
+                                "instructing us to install web technologies that we needed to use." +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
+                                "that it will be easier for us to code and implement the tasks given to us." + 
+                            "</p>" +
+                        "</div>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            //  Certificate of Completion
+
+                            "<h3 id=\"completion\" class=\"for-smooth-scrolling\"> Certificate of Completion </h3>" +
+                            "<p class=\"description\">" +
+                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
+                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
+                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
+                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
+                                "instructing us to install web technologies that we needed to use." +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
+                                "that it will be easier for us to code and implement the tasks given to us." + 
+                            "</p>" +
+                        "</div>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            //  Certificate of Webinars Attended
+
+                            "<h3 id=\"webinar\" class=\"for-smooth-scrolling\"> Certificate of Webinars Attended </h3>" +
+                            "<p class=\"description\">" +
+                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
+                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
+                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
+                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
+                                "instructing us to install web technologies that we needed to use." +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
+                                "that it will be easier for us to code and implement the tasks given to us." + 
+                            "</p>" +
+                        "</div>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            //  Exploratory Discussions
+
+                            "<h3 id=\"discussions\" class=\"for-smooth-scrolling\"> Exploratory Discussions </h3>" +
+                            "<p class=\"description\">" +
+                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
+                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
+                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
+                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
+                                "instructing us to install web technologies that we needed to use." +
+                            "</p>" +
+                            "<p class=\"description\">" +
+                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
+                                "that it will be easier for us to code and implement the tasks given to us." + 
+                            "</p>" +
+                        "</div>" +
+                                                
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 1st
+
+                            "<h3 id=\"pictures\" class=\"for-smooth-scrolling\"> Supporting Pictures </h3>" +
+                            "<p class=\"description\">" +
+                                "<strong> 08/22/2022 - 08/26/2022 </strong> As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
+                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
+                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/First/1-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/First/1-2.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/First/1-3.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/First/1-4.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/First/1-5.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/First/1-6.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/First/1-7.PNG\" />" +                                                       
+                        "</div>" +
+                        
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures: 2nd 
+
+                            "<p class=\"description\">" +
+                                "<strong> 08/29/2022 - 09/02/2022 </strong> Resolved issue 15 and 21: (15) Added bottom padding on the franchising page " + 
+                                "(21) Added Continue with mobile Button, 08/31/2022 Created and tried to add the sign in modal with the ‘continue with mobile’ button. Use React Hooks to change content in the UI. " +
+                                "09/01/2022 I was able to successfully useState with ReactJs to dynamically change the content of the form depending on the tab. 09/02/2022 Fixed issues on the form where the close button is outside the form. Also changed the mobile number input field and use phone field import from React.js " +
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-2.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-3.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-4.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-5.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-6.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Second/2-7.PNG\" />" +                                                       
+                        "</div>" +
+                        
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 3rd
+
+                            "<p class=\"description\">" +
+                                "<strong> 09/05/2022 - 09/09/2022 </strong> 09/05/2022 Downgraded xampp and managed the setup for my local device, where some buttons and images are not properly displayed in the localhost. 09/06/2022 Minimized navigation height for some pages. " + 
+                                "09/07/2022 Fixed an issue where the swiper navigation component is not vertically-aligned. I found out that it is automatically vertically aligned, only in relation to its parent element. Therefore, adjusting the parent container’s height solves the problem. " +
+                                "09/08/2022 - 09/09/2022 Our lead assigned us to do QA testing for the new Taters catering page. Issues were enumerated on GitHub, as preparation for the demo with the marketing team. " +
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Third/3-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Third/3-2.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Third/3-3.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Third/3-4.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Third/3-5.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Third/3-6.PNG\" />" +
+                        "</div>" +
+                        
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 4th
+
+                            "<p class=\"description\">" +
+                                "<strong> 09/12/2022 - 09/16/2022 </strong> 09-12-2022 The team was assigned to briefly learn UnionBank and Lalamove API for back-end integration for the future weeks.  " + 
+                                "09-13-2022 Improved markups, spelling and punctuations. Added anchor tags to redirect users to a useful link. 09-14-2022 Adjusted height container to display all texts inside the find us section. " +
+                                "09-15-2022 and 09-16-2022 Added desired padding for the find us section. " +
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Fourth/4-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fourth/4-2.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fourth/4-3.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fourth/4-4.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fourth/4-5.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fourth/4-6.PNG\" />" +
+                        "</div>" +
+                        
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 5th
+
+                            "<p class=\"description\">" +
+                                "<strong> 09/19/2022 - 09/23/2022 </strong> Listed all the pop up messages before presenting the current website to the marketing team. " + 
+                                "Resolved another issue where the text field react component cannot be edited, also added another field for delivery address. " +
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Fifth/5-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fifth/5-2.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Fifth/5-3.PNG\" />" +
+                        "</div>" +
+                        
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 6th
+
+                            "<p class=\"description\">" +
+                                "<strong> 09/26/2022 - 09/30/2022 </strong> 09/26/22 Fixed a bug where an extra scrollbar appears in the store visited modal." + 
+                                "09/27/22 Sorted out search store results. 09/28/22 Removed audit and remark logs at catering page. 09/29/22 Proposed UI for popclub deals. " +
+                                "09/30/22 Implemented design number 3. " +
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-2.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-3.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-4.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-5.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-6.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-7.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Sixth/6-8.PNG\" />" +                                
+                        "</div>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 7th
+
+                            "<p class=\"description\">" +
+                                "<strong> 10/03/2022 - 10/07/2022 </strong> 10/03-07/22 Pushed the implementation of design 3. Created an issue where the search suggestion input floats on top or below the input." +                                 
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Seventh/7-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Seventh/7-2.PNG\" />" +                                
+                        "</div>" +
+
+                        "<div class=\"ojt-content\">" +
+
+                            //  Supporting Pictures : 8th
+
+                            "<p class=\"description\">" +
+                                "<strong> 10/10/2022 - 10/12/2022 </strong> 10/03-07/22 Pushed the implementation of design 3. Created an issue where the search suggestion input floats on top or below the input." +                                 
+                            "</p>" +
+                                "<img src=\"../images/Weekly Documentation/Eight/8-1.PNG\" />" +
+                                "<img src=\"../images/Weekly Documentation/Eight/8-2.PNG\" />" +                                
+                        "</div>"; 
 
         updateOJTClass();
 
