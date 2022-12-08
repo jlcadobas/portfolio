@@ -23,6 +23,7 @@
         font-family: 'Raleway', sans-serif;
         font-weight: normal;
         min-height: 100vh;
+        min-width: 1200px;
     }
 
     .container {
@@ -146,7 +147,15 @@
 
         .blue .new-toggle-styles-width {
 
-            width: 76%;
+            width: 75vw;
+            min-width: 500px;
+            height: 12vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            position: absolute;
+            top: 0;
+            z-index: 20;
         }
 
         .blue a {
@@ -247,11 +256,13 @@
 
             width: 5vw;
             min-width: 55px;
+            min-height: 650px;
         }
 
         .new-width-blue {
 
             width: 80vw;
+            min-width: 1000px;
             background-color: #9AB5FF;
         }
 
@@ -267,6 +278,7 @@
             background-color: var(--yellow);
             border-left: 1px solid black;
             border-right: 1px solid black;
+            min-height: 650px;
         }
 
         .profile-shrink-size {
@@ -340,12 +352,12 @@
         .blue .new-content-width {
         
             width: 75%;
-            height: auto;
+            height: 100vh;
             display: flex;
             flex-flow: row wrap;
             justify-content: center;
             align-items: center;
-            margin-top: 410%;
+            margin-top: 30vh;
         }
 
         .ojt-content {
@@ -357,6 +369,11 @@
             justify-content: space-evenly;
             align-items: center;
             height: auto;
+            margin: 1.5em 0em;
+        }
+
+        .ojt-content img {
+
             margin: 1em 0em;
         }
 
@@ -367,6 +384,17 @@
 
         h2 {
 
+            margin: 1em 0em;
+        }
+
+        .document {
+
+            margin-bottom: 3em;
+        }
+
+        h4 img {
+
+            display: block;
             margin: 2em 0em;
         }
 
@@ -385,6 +413,20 @@
             padding-top: 150pt;
             margin-top: -150pt;
         }
+
+                /* Scrollbar */
+
+                .no-scrollbar::-webkit-scrollbar {
+                    display: none;
+                }
+        
+                /* Hide scrollbar for IE, Edge and Firefox */
+                .no-scrollbar {
+                    -ms-overflow-style: none;
+                    /* IE and Edge */
+                    scrollbar-width: none;
+                    /* Firefox */
+                }
 
         
         
