@@ -148,7 +148,7 @@
         .blue .new-toggle-styles-width {
 
             width: 75vw;
-            min-width: 500px;
+            min-width: 1000px;
             height: 12vh;
             display: flex;
             justify-content: space-evenly;
@@ -302,7 +302,7 @@
         .side-toggle .column {
 
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             flex-direction: column;
             background-color: var(--yellow);
             width: 80%;
@@ -375,6 +375,7 @@
         .ojt-content img {
 
             margin: 1em 0em;
+            border-radius: 10px;
         }
 
         h3 {
