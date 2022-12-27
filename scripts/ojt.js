@@ -314,7 +314,7 @@
                             "<p class=\"description\">" +
                                 "Here is the converted image for the Recommendation Letter as a requirement for the subject." +
                             "</p>" +                          
-                            "<img src=\"../images/Adobas - Endorsement Letter.jpg\" width=\"450\" height=\"650\" />" +
+                            "<img src=\"./images/Adobas - Endorsement Letter.jpg\" width=\"450\" height=\"650\" />" +
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
@@ -324,7 +324,7 @@
                             "<h3 id=\"acceptance\" class=\"for-smooth-scrolling\"> Acceptance Letter </h3>" +
                             "<p class=\"description\">" +
                                 "Here is the converted image for the Acceptance Letter as a requirement for the subject." +                            "</p>" +                            
-                            "<img src=\"../images/Adobas -Acceptance Letter.jpg\" width=\"450\" height=\"650\" />" +
+                            "<img src=\"./images/Adobas -Acceptance Letter.jpg\" width=\"450\" height=\"650\" />" +
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -334,7 +334,7 @@
                             "<h3 id=\"waiver\" class=\"for-smooth-scrolling\"> Waiver Form </h3>" +
                             "<p class=\"description\">" +
                                 "Here is the converted image for the Consent or Waiver Form as a requirement for the subject." +                            "</p>" + 
-                            "<img src=\"../images/Consent Form.jpg\" width=\"450\" height=\"650\" />" +
+                            "<img src=\"./images/Consent Form.jpg\" width=\"450\" height=\"650\" />" +
                         "</div>" +
 
 
@@ -346,13 +346,13 @@
                             "<p class=\"description\">" +
                                 "Here is the converted image for the Memorandum of Agreement as a requirement for the subject." +
                             "</p>" +
-                            "<img src=\"../images/MOA/MOA_1.jpg\" width=\"400\" height=\"600\" />" +
-                            "<img src=\"../images/MOA/MOA_2.jpg\" width=\"400\" height=\"600\" />" + 
-                            "<img src=\"../images/MOA/MOA_3.jpg\" width=\"400\" height=\"600\" />" + 
-                            "<img src=\"../images/MOA/MOA_4.jpg\" width=\"400\" height=\"600\" />" + 
-                            "<img src=\"../images/MOA/MOA_5.jpg\" width=\"400\" height=\"600\" />" + 
-                            "<img src=\"../images/MOA/MOA_6.jpg\" width=\"400\" height=\"600\" />" + 
-                            "<img src=\"../images/MOA/MOA_7.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"./images/MOA/MOA_1.jpg\" width=\"400\" height=\"600\" />" +
+                            "<img src=\"./images/MOA/MOA_2.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"./images/MOA/MOA_3.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"./images/MOA/MOA_4.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"./images/MOA/MOA_5.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"./images/MOA/MOA_6.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"./images/MOA/MOA_7.jpg\" width=\"400\" height=\"600\" />" + 
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -363,7 +363,7 @@
                             "<p class=\"description\">" +
                                 "Here is the converted image for the Certificate of Completion as a requirement for the subject." +
                             "</p>" +
-                            "<img src=\"../images/Certificate of Completion.jpg\" width=\"450\" height=\"650\" />" +  
+                            "<img src=\"./images/Certificate of Completion.jpg\" width=\"450\" height=\"650\" />" +  
                         "</div>" +
                                                 
                         "<div class=\"ojt-content\">" +
