@@ -33,7 +33,7 @@
                                 "Chimara Neo-Vegan Cafe. Taters is the market leader in movie entertainment snacks and currently " + 
                                 "has 26 branches all over the Philippines." +
                             "</p>" +
-                            "<img src=\"../images/Taters Enterprise Inc. - Company Profile.jpg\" width=\"500\" height=\"500\"></img>" + 
+                            "<img src=\"./images/Taters Enterprise Inc. - Company Profile.jpg\" width=\"450\" height=\"650\"></img>" + 
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -58,7 +58,7 @@
                                 "modestly-priced, and higher in nutritional value evidenced by innovations and constant additions to its menu." + 
                                 "In all its endeavors, the delivery of quality products and services has always been TATERS' commitment and ultimate goal." +
                             "</p>" +
-                            "<img src=\"../images/Taters Enterprise Inc. - SEC Registration.jpg\" width=\"290\" height=\"450\"></img>" +
+                            "<img src=\"./images/Taters Enterprise Inc. - SEC Registration.jpg\" width=\"450\" height=\"650\"></img>" +
                         "</div>" +
 
                         /*
@@ -308,18 +308,23 @@
 
                         "<div class=\"ojt-content\">" +
 
-                            // Signed Recommendation Letter
+                            // Recommendation Letter
 
-                            "<h3 id=\"signed\" class=\"for-smooth-scrolling\"> Signed Recommendation Letter </h3>" +                          
-                            "<img src=\"../images/Adobas - Endorsement Letter.jpg\" width=\"290\" height=\"450\" />" +
+                            "<h3 id=\"signed\" class=\"for-smooth-scrolling\"> Recommendation Letter </h3>" +
+                            "<p class=\"description\">" +
+                                "Here is the converted image for the Recommendation Letter as a requirement for the subject." +
+                            "</p>" +                          
+                            "<img src=\"../images/Adobas - Endorsement Letter.jpg\" width=\"450\" height=\"650\" />" +
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
 
                             // Acceptance Letter
 
-                            "<h3 id=\"acceptance\" class=\"for-smooth-scrolling\"> Acceptance Letter </h3>" +                            
-                            "<img src=\"../images/Adobas -Acceptance Letter.jpg\" width=\"290\" height=\"450\" />" +
+                            "<h3 id=\"acceptance\" class=\"for-smooth-scrolling\"> Acceptance Letter </h3>" +
+                            "<p class=\"description\">" +
+                                "Here is the converted image for the Acceptance Letter as a requirement for the subject." +                            "</p>" +                            
+                            "<img src=\"../images/Adobas -Acceptance Letter.jpg\" width=\"450\" height=\"650\" />" +
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -328,41 +333,26 @@
 
                             "<h3 id=\"waiver\" class=\"for-smooth-scrolling\"> Waiver Form </h3>" +
                             "<p class=\"description\">" +
-                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
-                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
-                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
-                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
-                                "instructing us to install web technologies that we needed to use." +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
-                                "that it will be easier for us to code and implement the tasks given to us." + 
-                            "</p>" +
+                                "Here is the converted image for the Consent or Waiver Form as a requirement for the subject." +                            "</p>" + 
+                            "<img src=\"../images/Consent Form.jpg\" width=\"450\" height=\"650\" />" +
                         "</div>" +
 
 
                         "<div class=\"ojt-content\">" +
 
-                            //  MOA / MOU
+                            //  Memorandum of Agreement
 
-                            "<h3 id=\"moa\" class=\"for-smooth-scrolling\"> MOA / MOU </h3>" +
+                            "<h3 id=\"moa\" class=\"for-smooth-scrolling\"> Memorandum of Agreement </h3>" +
                             "<p class=\"description\">" +
-                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
-                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
-                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                                "Here is the converted image for the Memorandum of Agreement as a requirement for the subject." +
                             "</p>" +
-                            "<p class=\"description\">" +
-                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
-                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
-                                "instructing us to install web technologies that we needed to use." +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
-                                "that it will be easier for us to code and implement the tasks given to us." + 
-                            "</p>" +
+                            "<img src=\"../images/MOA/MOA_1.jpg\" width=\"400\" height=\"600\" />" +
+                            "<img src=\"../images/MOA/MOA_2.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"../images/MOA/MOA_3.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"../images/MOA/MOA_4.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"../images/MOA/MOA_5.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"../images/MOA/MOA_6.jpg\" width=\"400\" height=\"600\" />" + 
+                            "<img src=\"../images/MOA/MOA_7.jpg\" width=\"400\" height=\"600\" />" + 
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -371,61 +361,9 @@
 
                             "<h3 id=\"completion\" class=\"for-smooth-scrolling\"> Certificate of Completion </h3>" +
                             "<p class=\"description\">" +
-                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
-                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
-                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
+                                "Here is the converted image for the Certificate of Completion as a requirement for the subject." +
                             "</p>" +
-                            "<p class=\"description\">" +
-                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
-                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
-                                "instructing us to install web technologies that we needed to use." +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
-                                "that it will be easier for us to code and implement the tasks given to us." + 
-                            "</p>" +
-                        "</div>" +
-
-                        "<div class=\"ojt-content\">" +
-
-                            //  Certificate of Webinars Attended
-
-                            "<h3 id=\"webinar\" class=\"for-smooth-scrolling\"> Certificate of Webinars Attended </h3>" +
-                            "<p class=\"description\">" +
-                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
-                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
-                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
-                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
-                                "instructing us to install web technologies that we needed to use." +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
-                                "that it will be easier for us to code and implement the tasks given to us." + 
-                            "</p>" +
-                        "</div>" +
-
-                        "<div class=\"ojt-content\">" +
-
-                            //  Exploratory Discussions
-
-                            "<h3 id=\"discussions\" class=\"for-smooth-scrolling\"> Exploratory Discussions </h3>" +
-                            "<p class=\"description\">" +
-                                "As this was the first week, our supervisor made us do QA testing for the website, where the goal is to find all " + 
-                                "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
-                                "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "This looked more like a warm-up, before we got on the tidbits of doing full stack web development using React, " +
-                                "Typescript, Tailwind, and Code igniter. Our lead also helped us set up the website to run on the localhost, " + 
-                                "instructing us to install web technologies that we needed to use." +
-                            "</p>" +
-                            "<p class=\"description\">" +
-                                "Within this week, the interns were instructed to review basic concepts of the mentioned web technologies, so " +
-                                "that it will be easier for us to code and implement the tasks given to us." + 
-                            "</p>" +
+                            "<img src=\"../images/Certificate of Completion.jpg\" width=\"450\" height=\"650\" />" +  
                         "</div>" +
                                                 
                         "<div class=\"ojt-content\">" +
