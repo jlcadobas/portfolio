@@ -376,13 +376,13 @@
                                 "the issues, bugs, and adjustments that we need to make for the improvement of the website. We were given a week to do this, " +
                                 "and the next day the goal is to present the bugs that we listed and explain how we should make the adjustments. " +
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/First/1-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/First/1-2.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/First/1-3.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/First/1-4.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/First/1-5.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/First/1-6.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/First/1-7.PNG\" />" +                                                       
+                                "<img src=\"./images/Weekly Documentation/First/1-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/First/1-2.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/First/1-3.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/First/1-4.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/First/1-5.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/First/1-6.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/First/1-7.PNG\" />" +                                                       
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
@@ -394,13 +394,13 @@
                                 "(21) Added Continue with mobile Button, 08/31/2022 Created and tried to add the sign in modal with the ‘continue with mobile’ button. Use React Hooks to change content in the UI. " +
                                 "09/01/2022 I was able to successfully useState with ReactJs to dynamically change the content of the form depending on the tab. 09/02/2022 Fixed issues on the form where the close button is outside the form. Also changed the mobile number input field and use phone field import from React.js " +
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-2.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-3.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-4.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-5.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-6.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Second/2-7.PNG\" />" +                                                       
+                                "<img src=\"./images/Weekly Documentation/Second/2-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Second/2-2.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Second/2-3.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Second/2-4.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Second/2-5.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Second/2-6.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Second/2-7.PNG\" />" +                                                       
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
@@ -412,12 +412,12 @@
                                 "09/07/2022 Fixed an issue where the swiper navigation component is not vertically-aligned. I found out that it is automatically vertically aligned, only in relation to its parent element. Therefore, adjusting the parent container’s height solves the problem. " +
                                 "09/08/2022 - 09/09/2022 Our lead assigned us to do QA testing for the new Taters catering page. Issues were enumerated on GitHub, as preparation for the demo with the marketing team. " +
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Third/3-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Third/3-2.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Third/3-3.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Third/3-4.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Third/3-5.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Third/3-6.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Third/3-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Third/3-2.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Third/3-3.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Third/3-4.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Third/3-5.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Third/3-6.PNG\" />" +
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
@@ -429,12 +429,12 @@
                                 "09-13-2022 Improved markups, spelling and punctuations. Added anchor tags to redirect users to a useful link. 09-14-2022 Adjusted height container to display all texts inside the find us section. " +
                                 "09-15-2022 and 09-16-2022 Added desired padding for the find us section. " +
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Fourth/4-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fourth/4-2.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fourth/4-3.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fourth/4-4.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fourth/4-5.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fourth/4-6.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fourth/4-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fourth/4-2.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fourth/4-3.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fourth/4-4.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fourth/4-5.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fourth/4-6.PNG\" />" +
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
@@ -445,9 +445,9 @@
                                 "<strong> 09/19/2022 - 09/23/2022 </strong> Listed all the pop up messages before presenting the current website to the marketing team. " + 
                                 "Resolved another issue where the text field react component cannot be edited, also added another field for delivery address. " +
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Fifth/5-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fifth/5-2.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Fifth/5-3.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fifth/5-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fifth/5-2.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Fifth/5-3.PNG\" />" +
                         "</div>" +
                         
                         "<div class=\"ojt-content\">" +
@@ -459,14 +459,14 @@
                                 "09/27/22 Sorted out search store results. 09/28/22 Removed audit and remark logs at catering page. 09/29/22 Proposed UI for popclub deals. " +
                                 "09/30/22 Implemented design number 3. " +
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-2.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-3.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-4.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-5.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-6.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-7.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Sixth/6-8.PNG\" />" +                                
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-2.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-3.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-4.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-5.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-6.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-7.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Sixth/6-8.PNG\" />" +                                
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -476,8 +476,8 @@
                             "<p class=\"description\">" +
                                 "<strong> 10/03/2022 - 10/07/2022 </strong> 10/03-07/22 Pushed the implementation of design 3. Created an issue where the search suggestion input floats on top or below the input." +                                 
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Seventh/7-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Seventh/7-2.PNG\" />" +                                
+                                "<img src=\"./images/Weekly Documentation/Seventh/7-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Seventh/7-2.PNG\" />" +                                
                         "</div>" +
 
                         "<div class=\"ojt-content\">" +
@@ -487,8 +487,8 @@
                             "<p class=\"description\">" +
                                 "<strong> 10/10/2022 - 10/12/2022 </strong> 10/03-07/22 Pushed the implementation of design 3. Created an issue where the search suggestion input floats on top or below the input." +                                 
                             "</p>" +
-                                "<img src=\"../images/Weekly Documentation/Eight/8-1.PNG\" />" +
-                                "<img src=\"../images/Weekly Documentation/Eight/8-2.PNG\" />" +                                
+                                "<img src=\"./images/Weekly Documentation/Eight/8-1.PNG\" />" +
+                                "<img src=\"./images/Weekly Documentation/Eight/8-2.PNG\" />" +                                
                         "</div>"; 
 
         updateOJTClass();
