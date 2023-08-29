@@ -18,6 +18,13 @@
     function changeToPortfolioContent() {
 
         var content =   "<div class=\"content-sections\">" +
+                            "<header> ellioeo </header>" +
+                            "<a href=\"http://ellioeo.infinityfreeapp.com\" target=\"_blank\">" +
+                                "<img class=\"featured-website\" src=\"./images/ellioeo.png\"/>" +
+                            "</a>" +
+                        "</div>" +
+
+                        "<div class=\"content-sections\">" +
                             "<header> Macrame Home Decor: makrahangs </header>" +
                             "<a href=\"https://jlcadobas.github.io/makrahangs/\" target=\"_blank\">" +
                                 "<img class=\"featured-website\" src=\"./images/macrame.png\"/>" +
@@ -46,13 +53,6 @@
                         "</div>" +
 
                         "<div class=\"content-sections\">" +
-                            "<header> Ian Rankin </header>" +
-                            "<a href=\"https://jlcadobas.github.io/rankin-website-tribute/\" target=\"_blank\">" +
-                                "<img class=\"featured-website\" src=\"./images/rankin.png\"/>" +
-                            "</a>" +
-                        "</div>" +
-
-                        "<div class=\"content-sections\">" +
                             "<header> SMOL Budgeting App </header>" +
                             "<a href=\"https://www.figma.com/file/FNNtCgJW26zXAzCioX8wxz/SMOL-Budgeting-App?node-id=54%3A459&t=gTrl9pEHj4b9bwMv-1\" target=\"_blank\">" +
                                 "<img class=\"featured-website\" src=\"./images/smol.png\"/>" +
@@ -68,6 +68,6 @@
     
         updatePortfolioClasses();
 
-        document.getElementsByClassName("ojt")[0].innerHTML = "OJT";
+        // document.getElementsByClassName("ojt")[0].innerHTML = "OJT";
         document.getElementsByClassName("content")[0].innerHTML = content;
     }
