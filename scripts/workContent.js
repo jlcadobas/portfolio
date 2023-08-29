@@ -32,7 +32,7 @@
 
                         "<div class=\"content-sections adjust-height border\">" +
                             "<header class=\"line-height\">" +
-                                "Front-end Web Development Intern: <br> (300 hrs.) <br>" +
+                                "Front-end Web Development Intern <br> (300 hrs.) <br>" +
                                 "<span>" +
                                     "Datatrends Co. <br>" +
                                     "Quezon City" +
@@ -44,7 +44,7 @@
 
                         "<div class=\"content-sections adjust-height border\">" +
                             "<header class=\"line-height\">" +
-                                "Mobile Dev Intern: <br> March - Present <br>" +
+                                "Mobile Dev Intern <br> March - Present <br>" +
                                 "<span>" +
                                     "SMOL Budgeting App <br>" +
                                     "Quezon City" +
@@ -70,6 +70,6 @@
                        
         updateWorkClasses();
 
-        document.getElementsByClassName("ojt")[0].innerHTML = "OJT";
+        // document.getElementsByClassName("ojt")[0].innerHTML = "OJT";
         document.getElementsByClassName("content")[0].innerHTML = content;
     }
