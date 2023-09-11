@@ -1,0 +1,134 @@
+
+    /* CSS Rules Section:    
+
+        1. General (1-16)  
+        2. Left Column (18-33)
+        3. Right Column (36-64)
+        4. Images (67-77)
+        5. Scrollbar (86-90)
+    */
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root { --orange: #FFE49A; --blue: #9AB5FF; }
+
+    html { max-height: 768px; }
+
+    body {
+        width: 100vw; height: 100vh;
+        font-family: 'Raleway', sans-serif; font-weight: normal;
+        display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 100vh 100vh;
+
+        max-width: 1400px; min-width: 1024px;
+        margin: 0 auto;
+    }
+
+    /* Left Column */
+
+    .yellow {  
+        background-color: var(--orange); 
+        display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
+        padding-top: 10vh; 
+    }
+
+    nav {  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
+
+    h1 { font-size: 1.5em; font-weight: bold; }    
+
+    p { 
+        text-align: center; line-height: 1.5em;
+        font-size: 1.25em; font-weight: lighter;
+        width: 90%;
+    }
+
+    span { font-style: italic; }
+
+    /* Right Column */
+
+    .blue {  
+        background-color: var(--blue); 
+        overflow-y: scroll; }
+
+    .toggle-styles { 
+        height: 100px;
+        display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;
+    }
+
+    .toggle-styles a {  
+        font-size: 1.25em; font-weight: bold; color: var(--orange);
+        border-bottom: 0.5px solid var(--blue); padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .toggle-styles a:hover { border-bottom: 0.5px solid var(--orange); }
+
+    .content { 
+        display: grid; grid-template-columns: 45% 45%; justify-content: center; align-items: center;
+        overflow-y: scroll;
+    }
+
+    .content-sections { margin: 1rem; }
+
+    .content-sections a { width: 100%; }
+
+    header { 
+        text-align: center; margin: 1rem 0rem;
+        font-size: 14px; font-weight: bold;
+    }
+
+    /* Internship Card Styling */
+
+    .adjust-height { width: 98%; height: 325px; }
+
+    .border { border: 2px solid var(--orange); border-radius: 10px; }
+
+    header.line-height { 
+        text-align: left;  line-height: 25px; font-size: 14px;
+        width: 85%; margin: 2rem auto;
+    }
+
+    .line-height span { font-weight: normal; }
+
+    p.text-indent {    
+        text-align: justify; margin-left: 5px; 
+        font-size: 14px; color:white;
+        width: 90%; margin: 0 auto;
+    }
+
+    /* Images */
+
+    .nav-logo { width: 30px; height: 30px;  }
+
+    .display-picture {  
+
+        width: 50%; aspect-ratio: 1/1; 
+        padding: 5px; 
+        border-radius: 50%;
+        background-color: white;
+    }
+
+    .featured-website {  
+
+        width: 85%; aspect-ratio: 1/1;
+        display: block; margin: 0 auto;
+        border-radius: 10px;
+        transition: width 0.2s ease-in-out }
+
+        /* Scrollbar */
+    
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+    /* Media Queries */
+
+    @media (max-width: 1024px) {
+        
+        .yellow p { font-size: 1em;}
+
+        h1 { font-size: 1.75em;}
+
+        .display-picture { width: 65%; }
+
+        .adjust-height { height: 45vh; }
+    }

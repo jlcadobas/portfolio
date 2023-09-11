@@ -3,16 +3,16 @@
 
        function updateWorkClasses() {
 
-        document.getElementsByTagName("section")[0].classList.remove("new-width-yellow");
-        document.getElementsByTagName("section")[1].setAttribute("class", "hidden");
-        document.getElementsByTagName("section")[2].classList.remove("new-width-blue");
-        document.getElementsByClassName("toggle-styles")[0].classList.remove("class", "new-toggle-styles-width");
-        document.getElementsByClassName("content")[0].classList.remove("new-content-width");
+        // document.getElementsByTagName("section")[0].classList.remove("new-width-yellow");
+        // document.getElementsByTagName("section")[1].setAttribute("class", "hidden");
+        // document.getElementsByTagName("section")[2].classList.remove("new-width-blue");
+        // document.getElementsByClassName("toggle-styles")[0].classList.remove("class", "new-toggle-styles-width");
+        // document.getElementsByClassName("content")[0].classList.remove("new-content-width");
 
-        document.getElementsByTagName("img")[0].setAttribute("class", "display-picture frame margin-top");
-        document.getElementsByTagName("h1")[0].setAttribute("class", "name");
-        document.getElementsByTagName("p")[0].setAttribute("class", "subtitle");
-        document.getElementsByTagName("nav")[0].setAttribute("class", "");
+        // document.getElementsByTagName("img")[0].setAttribute("class", "display-picture frame margin-top");
+        // document.getElementsByTagName("h1")[0].setAttribute("class", "name");
+        // document.getElementsByTagName("p")[0].setAttribute("class", "subtitle");
+        // document.getElementsByTagName("nav")[0].setAttribute("class", "");
     }
 
     function changeToWorkContent() {
