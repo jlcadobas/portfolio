@@ -1,134 +1,205 @@
 
-    /* CSS Rules Section:    
-
-        1. General (1-16)  
-        2. Left Column (18-33)
-        3. Right Column (36-64)
-        4. Images (67-77)
-        5. Scrollbar (86-90)
+    /* For easy navigation, use ctrl + f to jump to sections:    
+        1. Section 1: General CSS Rules
+        2. Section 2: Hiding yellow column and scrollbar.
+        3. Section 3: Yellow Column.
+        4. Section 4: Blue Column.
+        5. Section 5: Internship Card Styling. 
+        6. Section 6: Images.
+        7. Section 7: Media Queries.
+        8. Section 8: Animation. 
     */
+
+    /* Section 1: General CSS Rules */
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     :root { --orange: #FFE49A; --blue: #9AB5FF; }
 
-    html { max-height: 768px; }
-
     body {
-        width: 100vw; height: 100vh;
-        font-family: 'Raleway', sans-serif; font-weight: normal;
+        width: 100vw; max-width: 1400px; height: 100vh; margin: 0 auto;
         display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 100vh 100vh;
+        font-family: 'Raleway', sans-serif; font-weight: normal;
+    }    
 
-        max-width: 1400px; min-width: 1024px;
-        margin: 0 auto;
-    }
+    button { display: none; }
 
-    /* Left Column */
 
-    .yellow {  
-        background-color: var(--orange); 
-        display: flex; flex-direction: column; align-items: center; justify-content: space-evenly;
-        padding-top: 10vh; 
-    }
+    /* Section 2: Show and Hide .yellow column and scrollbar. */
+    
 
-    nav {  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
+    .no-scrollbar::-webkit-scrollbar { display: none; }
+    
+    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-    h1 { font-size: 1.5em; font-weight: bold; }    
+    .show { /* Show and Hide column */ }
 
-    p { 
-        text-align: center; line-height: 1.5em;
-        font-size: 1.25em; font-weight: lighter;
-        width: 90%;
-    }
 
-    span { font-style: italic; }
+    /* Section 3: Yellow Column */
 
-    /* Right Column */
+
+        .yellow {  
+            background-color: var(--orange); 
+            display: flex; flex-direction: column; align-items: center; gap: 2.25rem;
+            padding-top: 10vh; 
+            transition: max-width 0.3s ease-in-out, opacity 0.33s ease-in-out;  }
+
+        nav {  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
+
+        h1 { font-size: 1.75em; font-weight: bold; }    
+
+        p { 
+            width: 85%;
+            font-size: 1.25em; font-weight: lighter;
+            text-align: center; line-height: 1.5em; }
+
+            span { font-style: italic; }
+
+
+    /* Section 4: Blue Column */
+
 
     .blue {  
         background-color: var(--blue); 
         overflow-y: scroll; }
 
-    .toggle-styles { 
-        height: 100px;
-        display: flex; flex-direction: row; justify-content: space-evenly; align-items: center;
-    }
+        .toggle-styles { 
+            height: 100px;
+            display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; }
 
-    .toggle-styles a {  
-        font-size: 1.25em; font-weight: bold; color: var(--orange);
-        border-bottom: 0.5px solid var(--blue); padding: 10px 20px;
-        cursor: pointer;
-    }
+            .toggle-styles a {  
+                font-size: 1.25em; font-weight: bold; color: var(--orange);
+                border-bottom: 0.5px solid var(--blue); 
+                cursor: pointer;
+                padding: 10px 20px; }
 
-    .toggle-styles a:hover { border-bottom: 0.5px solid var(--orange); }
+            .toggle-styles a:hover { border-bottom: 0.5px solid var(--orange); }
 
-    .content { 
-        display: grid; grid-template-columns: 45% 45%; justify-content: center; align-items: center;
-        overflow-y: scroll;
-    }
+        .content { 
+            display: grid; grid-template-columns: 45% 45%; justify-content: center; align-items: center;
+            overflow-y: scroll; }
 
-    .content-sections { margin: 1rem; }
+            .content-sections { margin: 1rem; }
 
-    .content-sections a { width: 100%; }
+            .content-sections a { width: 100%; }
 
-    header { 
-        text-align: center; margin: 1rem 0rem;
-        font-size: 14px; font-weight: bold;
-    }
+                header { 
+                    text-align: center; margin: 1rem 0rem;
+                    font-size: 14px; font-weight: bold;
+                }
 
-    /* Internship Card Styling */
+                /* Section 5: Internship Card Styling */
 
-    .adjust-height { width: 98%; height: 325px; }
+                .adjust-height { width: 98%; height: 350px; margin: 1rem auto; }
 
-    .border { border: 2px solid var(--orange); border-radius: 10px; }
+                .border { border: 2px solid var(--orange); border-radius: 10px; }
 
-    header.line-height { 
-        text-align: left;  line-height: 25px; font-size: 14px;
-        width: 85%; margin: 2rem auto;
-    }
+                header.line-height { 
+                    text-align: left;  line-height: 25px; font-size: 14px;
+                    width: 85%; margin: 3rem auto;
+                }
 
-    .line-height span { font-weight: normal; }
+                .line-height span { font-weight: normal; }
 
-    p.text-indent {    
-        text-align: justify; margin-left: 5px; 
-        font-size: 14px; color:white;
-        width: 90%; margin: 0 auto;
-    }
+                p.text-indent {    
+                    text-align: justify; margin-left: 5px; 
+                    font-size: 14px; color:white;
+                    width: 90%; margin: 0 auto; }
 
-    /* Images */
+
+    /* Section 6: Images */
+
+
+    .display-picture {  
+        width: 50%; aspect-ratio: 1/1; padding: 5px;
+        border-radius: 50%;
+        background-color: white; }
 
     .nav-logo { width: 30px; height: 30px;  }
 
-    .display-picture {  
-
-        width: 50%; aspect-ratio: 1/1; 
-        padding: 5px; 
-        border-radius: 50%;
-        background-color: white;
-    }
-
     .featured-website {  
-
-        width: 85%; aspect-ratio: 1/1;
-        display: block; margin: 0 auto;
+        width: 85%; aspect-ratio: 1/1; margin: 0 auto;
+        display: block;
         border-radius: 10px;
         transition: width 0.2s ease-in-out }
 
-        /* Scrollbar */
-    
-        .no-scrollbar::-webkit-scrollbar { display: none; }
-    
-        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-    /* Media Queries */
+    /* Section 7: Media Queries */
+
 
     @media (max-width: 1024px) {
         
-        .yellow p { font-size: 1em;}
+        body { grid-template-columns: 100%;  }
 
-        h1 { font-size: 1.75em;}
+            .yellow p { font-size: 1em; gap: 3rem; }
 
-        .display-picture { width: 65%; }
+            .featured-website { width: 80%; }
 
-        .adjust-height { height: 45vh; }
+            /* Show the yellow column on button click. */
+            .show {
+                width: 70%; height: 100vh;
+                position: absolute; z-index: 2;
+                animation: slide-in 0.33s ease-in-out; }
+
+            .hide { display: none; }
+
+                button { 
+                    width: 30px; height: 30px;
+                    position: absolute; top: 50%; left: 68%; z-index: 2;
+                    font-size: 16px; font-weight: bold;
+                    border-radius: 50%; border: none;
+                    background-color: black; color: white;
+                    cursor: pointer;
+                    display: block; }
+
+                    .adjust-height { width: 90%; height: 45vh; }
+    }
+
+    @media (max-width: 768px) {
+
+        .yellow { gap: 2rem; }
+
+            .display-picture { width: 45%; }
+    
+            h1 { font-size: 1.5em; }
+
+            .yellow p { font-size: 14px;}
+
+            .nav-logo { width: 25px; height: 25px; }
+
+
+
+        .content { grid-template-columns: 90%; }
+
+        .adjust-height { width: 60%; }
+    }
+
+    @media (max-width: 480px) {
+
+        .yellow { gap: 1.25rem; }
+
+            .display-picture { width: 50%; }
+
+            h1 { font-size: 1em; }
+
+            .yellow p { font-size: 12px;}
+
+            .nav-logo { width: 20px; height: 20px; } 
+
+
+
+        .toggle-styles a { font-size: 1em;}
+
+        .featured-website { width: 90%; }
+
+        .adjust-height { width: 80%; }
+    }
+
+
+    /* Section 8: Animation */ 
+
+
+    @keyframes slide-in {
+
+        from { max-width: 0; } to { max-width: 70%; }
     }
