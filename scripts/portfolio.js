@@ -1,19 +1,19 @@
 
     document.getElementsByClassName("portfolio")[0].addEventListener("click", changeToPortfolioContent);
 
-    function updatePortfolioClasses() {
+    // function updatePortfolioClasses() {
 
-        // document.getElementsByTagName("section")[0].classList.remove("new-width-yellow");
-        // document.getElementsByTagName("section")[1].setAttribute("class", "hidden");
-        // document.getElementsByTagName("section")[2].classList.remove("new-width-blue");
-        // document.getElementsByClassName("toggle-styles")[0].classList.remove("class", "new-toggle-styles-width");
-        // document.getElementsByClassName("content")[0].classList.remove("new-content-width");
+    //     // document.getElementsByTagName("section")[0].classList.remove("new-width-yellow");
+    //     // document.getElementsByTagName("section")[1].setAttribute("class", "hidden");
+    //     // document.getElementsByTagName("section")[2].classList.remove("new-width-blue");
+    //     // document.getElementsByClassName("toggle-styles")[0].classList.remove("class", "new-toggle-styles-width");
+    //     // document.getElementsByClassName("content")[0].classList.remove("new-content-width");
 
-        // document.getElementsByTagName("img")[0].setAttribute("class", "display-picture frame margin-top");
-        // document.getElementsByTagName("h1")[0].setAttribute("class", "name");
-        // document.getElementsByTagName("p")[0].setAttribute("class", "subtitle");
-        // document.getElementsByTagName("nav")[0].setAttribute("class", "");
-    }
+    //     // document.getElementsByTagName("img")[0].setAttribute("class", "display-picture frame margin-top");
+    //     // document.getElementsByTagName("h1")[0].setAttribute("class", "name");
+    //     // document.getElementsByTagName("p")[0].setAttribute("class", "subtitle");
+    //     // document.getElementsByTagName("nav")[0].setAttribute("class", "");
+    // }
 
     function changeToPortfolioContent() {
 
@@ -21,6 +21,13 @@
                             "<header> ellioeo </header>" +
                             "<a href=\"http://ellioeo.infinityfreeapp.com\" target=\"_blank\">" +
                                 "<img class=\"featured-website\" src=\"./images/ellioeo.png\"/>" +
+                            "</a>" +
+                        "</div>" +
+
+                        "<div class=\"content-sections\">" +
+                            "<header> AppointPet </header>" +
+                            "<a href=\"https://github.com/VoidFrancescaCruz/AppointPet-App/tree/master3\" target=\"_blank\">" +
+                                "<img class=\"featured-website\" src=\"./images/AppointPet.PNG\"/>" +
                             "</a>" +
                         "</div>" +
 
@@ -50,16 +57,9 @@
                             "<a href=\"https://www.figma.com/file/FNNtCgJW26zXAzCioX8wxz/SMOL-Budgeting-App?node-id=54%3A459&t=gTrl9pEHj4b9bwMv-1\" target=\"_blank\">" +
                                 "<img class=\"featured-website\" src=\"./images/smol.png\"/>" +
                             "</a>" +
-                        "</div>" +
-
-                        "<div class=\"content-sections\">" +
-                            "<header> AppointPet </header>" +
-                            "<a href=\"https://www.figma.com/file/8EXyLdjDXdXq7FAF5or7a8/AppointPet?node-id=0%3A1&t=7ZnEWYsLNHWfxUI0-1\" target=\"_blank\">" +
-                                "<img class=\"featured-website\" src=\"./images/AppointPet.PNG\"/>" +
-                            "</a>" +
                         "</div>";
     
-        updatePortfolioClasses();
+        // updatePortfolioClasses();
 
         // document.getElementsByClassName("ojt")[0].innerHTML = "OJT";
         document.getElementsByClassName("content")[0].innerHTML = content;
