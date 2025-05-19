@@ -8,3 +8,5 @@ For the figma design, click [here.](https://www.figma.com/file/NDG5Em7kkXXF9MIvW
 Updating the portfolio now, 2 years later. 
 
 I'm using HTML, CSS and Javascript for this, to showcase my web development skills without using any framework or library. 
+
+Update 1
