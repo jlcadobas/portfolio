@@ -1,205 +1,63 @@
 
-    /* For easy navigation, use ctrl + f to jump to sections:    
-        1. Section 1: General CSS Rules
-        2. Section 2: Hiding yellow column and scrollbar.
-        3. Section 3: Yellow Column.
-        4. Section 4: Blue Column.
-        5. Section 5: Internship Card Styling. 
-        6. Section 6: Images.
-        7. Section 7: Media Queries.
-        8. Section 8: Animation. 
-    */
 
-    /* Section 1: General CSS Rules */
-
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    :root { --orange: #FFE49A; --blue: #9AB5FF; }
+    * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
     body {
-        width: 100vw; max-width: 1400px; height: 100vh; margin: 0 auto;
-        display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: 100vh 100vh;
-        font-family: 'Raleway', sans-serif; font-weight: normal;
-    }    
-
-    button { display: none; }
-
-
-    /* Section 2: Show and Hide .yellow column and scrollbar. */
-    
-
-    .no-scrollbar::-webkit-scrollbar { display: none; }
-    
-    .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
-
-    .show { /* Show and Hide column */ }
-
-
-    /* Section 3: Yellow Column */
-
-
-        .yellow {  
-            background-color: var(--orange); 
-            display: flex; flex-direction: column; align-items: center; gap: 2.25rem;
-            padding-top: 10vh; 
-            transition: max-width 0.3s ease-in-out, opacity 0.33s ease-in-out;  }
-
-        nav {  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.75rem; }
-
-        h1 { font-size: 1.75em; font-weight: bold; }    
-
-        p { 
-            width: 85%;
-            font-size: 1.25em; font-weight: lighter;
-            text-align: center; line-height: 1.5em; }
-
-            span { font-style: italic; }
-
-
-    /* Section 4: Blue Column */
-
-
-    .blue {  
-        background-color: var(--blue); 
-        overflow-y: scroll; }
-
-        .toggle-styles { 
-            height: 100px;
-            display: flex; flex-direction: row; justify-content: space-evenly; align-items: center; }
-
-            .toggle-styles a {  
-                font-size: 1.25em; font-weight: bold; color: var(--orange);
-                border-bottom: 0.5px solid var(--blue); 
-                cursor: pointer;
-                padding: 10px 20px; }
-
-            .toggle-styles a:hover { border-bottom: 0.5px solid var(--orange); }
-
-        .content { 
-            display: grid; grid-template-columns: 45% 45%; justify-content: center; align-items: center;
-            overflow-y: scroll; }
-
-            .content-sections { margin: 1rem; }
-
-            .content-sections a { width: 100%; }
-
-                header { 
-                    text-align: center; margin: 1rem 0rem;
-                    font-size: 14px; font-weight: bold;
-                }
-
-                /* Section 5: Internship Card Styling */
-
-                .adjust-height { width: 98%; height: 350px; margin: 1rem auto; }
-
-                .border { border: 2px solid var(--orange); border-radius: 10px; }
-
-                header.line-height { 
-                    text-align: left;  line-height: 25px; font-size: 14px;
-                    width: 85%; margin: 3rem auto;
-                }
-
-                .line-height span { font-weight: normal; }
-
-                p.text-indent {    
-                    text-align: justify; margin-left: 5px; 
-                    font-size: 14px; color:white;
-                    width: 90%; margin: 0 auto; }
-
-
-    /* Section 6: Images */
-
-
-    .display-picture {  
-        width: 50%; aspect-ratio: 1/1; padding: 5px;
-        border-radius: 50%;
-        background-color: white; }
-
-    .nav-logo { width: 30px; height: 30px;  }
-
-    .featured-website {  
-        width: 85%; aspect-ratio: 1/1; margin: 0 auto;
-        display: block;
-        border-radius: 10px;
-        transition: width 0.2s ease-in-out }
-
-
-    /* Section 7: Media Queries */
-
-
-    @media (max-width: 1024px) {
-        
-        body { grid-template-columns: 100%;  }
-
-            .yellow p { font-size: 1em; gap: 3rem; }
-
-            .featured-website { width: 80%; }
-
-            /* Show the yellow column on button click. */
-            .show {
-                width: 70%; height: 100vh;
-                position: absolute; z-index: 2;
-                animation: slide-in 0.33s ease-in-out; }
-
-            .hide { display: none; }
-
-                button { 
-                    width: 30px; height: 30px;
-                    position: absolute; top: 50%; left: 68%; z-index: 2;
-                    font-size: 16px; font-weight: bold;
-                    border-radius: 50%; border: none;
-                    background-color: black; color: white;
-                    cursor: pointer;
-                    display: block; }
-
-                    .adjust-height { width: 90%; height: 45vh; }
+        background-color: #0f1924;
+        display: flex;
+        color: #94a3b8;
+        font-family: 'Rubiks', sans-serif;
     }
 
-    @media (max-width: 768px) {
-
-        .yellow { gap: 2rem; }
-
-            .display-picture { width: 45%; }
-    
-            h1 { font-size: 1.5em; }
-
-            .yellow p { font-size: 14px;}
-
-            .nav-logo { width: 25px; height: 25px; }
-
-
-
-        .content { grid-template-columns: 90%; }
-
-        .adjust-height { width: 60%; }
+    body > div {
+        width: 50%;
+        height: 100vh;
+        padding-top: 6%;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
-    @media (max-width: 480px) {
-
-        .yellow { gap: 1.25rem; }
-
-            .display-picture { width: 50%; }
-
-            h1 { font-size: 1em; }
-
-            .yellow p { font-size: 12px;}
-
-            .nav-logo { width: 20px; height: 20px; } 
-
-
-
-        .toggle-styles a { font-size: 1em;}
-
-        .featured-website { width: 90%; }
-
-        .adjust-height { width: 80%; }
+    body > div:nth-of-type(2) {
+        overflow: scroll;
     }
 
-
-    /* Section 8: Animation */ 
-
-
-    @keyframes slide-in {
-
-        from { max-width: 0; } to { max-width: 70%; }
+    svg {
+        width: 30px;
+        height: 30px;
     }
+
+    .info-container , .link-container, .logo-container, .about-container, .experience-container, .project-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .logo-container {
+        flex-direction: row;
+    }
+
+        .info-container h1 {
+            font-size: 3rem;
+        }
+
+        .info-container h2 {
+            font-size: 1.25rem;
+        }
+
+        .info-container p {
+            line-height: 150%;
+        }
+
+            .link-container {
+                margin-top: 6rem;
+                margin-bottom: 12rem;
+            }
+
+            .link-container a {
+                text-transform: uppercase;
+                font-size: 14px;
+            }
