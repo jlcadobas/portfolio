@@ -49,6 +49,30 @@
         color: lightblue;
     }
 
+    .link-container a {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .link-container a:hover .hover-bar {
+        width: 40px;
+        border-color: white;
+    }
+
+    .link-container a:hover {
+        color: white;
+    }
+
+    .hover-bar {
+        border: 0.5px solid #94a3b8;
+        width: 20px;
+        height: 1px;
+        display: flex;
+        margin-right: 16px;
+        transition: all 0.1s ease-in-out;
+    }
+
         .info-container h1 {
             font-size: 3rem;
         }
