@@ -7,26 +7,37 @@
     }
 
     body {
-        background-color: #000;
+        background-color: #080621;
         display: flex;
         justify-content: center;
-        color: #adadad;
+        color: #DFDFDF;
         font-family: 'Rubiks', sans-serif;
     }
 
     body > div {
-        width: 50%;
         height: 100vh;
-        padding: 6%;
-        max-width: 725px;
+        padding: 6% 4%;
+    }
+
+    body > div:nth-of-type(1) {
+        width: 40%;
+        max-width: 643px;
     }
 
     body > div:nth-of-type(2) {
-        overflow-y: scroll;
+        width: 60%;
         display: flex;
         flex-direction: column;
         gap: 6rem;
         scroll-behavior: smooth;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    body > div:nth-of-type(2) > div {
+        width: 786.5px;
+        display: flex;
+        flex-direction: column;
     }
 
     svg {
@@ -126,7 +137,7 @@
     }
 
     .experience-container > a:hover svg {
-        transform: translate(3px, -3px);
+        transform: translate(2px, -2px);
     }
 
     .experience-container > a > p {
@@ -168,8 +179,8 @@
     }
 
     .experience-container > a > div > span > svg, .experience-container > a > span svg {
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
 
     .tech-labels-container {
