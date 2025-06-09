@@ -7,26 +7,47 @@
     }
 
     body {
-        background-color: #000;
+        background-color: #041424;
         display: flex;
         justify-content: center;
-        color: #adadad;
+        color: #EFEFEF;
         font-family: 'Rubiks', sans-serif;
     }
 
     body > div {
-        width: 50%;
         height: 100vh;
-        padding: 6%;
-        max-width: 725px;
+    }
+
+    body > div:nth-of-type(1) {
+        padding: 6% 0 6% 4%;
     }
 
     body > div:nth-of-type(2) {
-        overflow-y: scroll;
+        padding: 6% 4% 6% 0%;
+    }
+
+    body > div:nth-of-type(1) {
+        width: 50%;
         display: flex;
-        flex-direction: column;
-        gap: 6rem;
+        justify-content: center;
+    }
+
+    body > div:nth-of-type(2) {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        overflow-y: scroll;
         scroll-behavior: smooth;
+    }
+
+    body > div:nth-of-type(1) > div {
+       width: 100%;
+       max-width: 573px;
+    }
+
+    body > div:nth-of-type(2) > div {
+       width: 100%;
+       max-width: 858px;
     }
 
     svg {
@@ -126,7 +147,7 @@
     }
 
     .experience-container > a:hover svg {
-        transform: translate(3px, -3px);
+        transform: translate(2px, -2px);
     }
 
     .experience-container > a > p {
@@ -168,8 +189,8 @@
     }
 
     .experience-container > a > div > span > svg, .experience-container > a > span svg {
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
 
     .tech-labels-container {
@@ -217,10 +238,45 @@
             visibility: visible;
             height: auto;
         }
+
+        body > div:nth-of-type(1), body > div:nth-of-type(2) {
+            width: 100%; 
+            justify-content: flex-start;
+            padding: 6%;
+        }
+
+        .experience-container, .project-container {
+            padding-top: 10%;
+        }
+
+        .tech-label {
+            font-size: 14px;
+        }
+
     }
 
     @media only screen and (max-width: 640px) {
         .info-container h1 {
             font-size: 2rem;
+        }
+
+        .experience-container > a, .project-container > a {
+            flex-direction: column;
+        }
+
+        .experience-container > a > p, .experience-container > a > div, .project-container > a > div {
+            width: 100%;
+            text-align: left;
+        }
+
+        .experience-container > a, .project-container > a {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .project-container > a > img {
+            width: 70%;
+            height: auto;
+            order: 2;
         }
     }
