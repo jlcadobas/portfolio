@@ -61,7 +61,9 @@
         gap: 16px;
     }
 
-    /* Left Column */
+    /* 
+    * Left Column
+    */
 
     .logo-container {
         flex-direction: row;
@@ -120,7 +122,9 @@
                 font-size: 14px;
             }
 
-    /* Right Column */
+    /*
+    * Right Column
+    */
 
     .experience-container > a, .project-container > a {
         display: flex;
@@ -134,19 +138,24 @@
     }
 
     .experience-container > a:hover {
-        background-color: rgba(54, 45, 44, 0.1);
-        border-radius: 16px;
+        background-color: rgba(30,41,59,0.25);
+        border-radius: 8px;
+    }
+
+    .experience-container > a:last-child:hover {
+        background: none;
+        border-radius: 0;
     }
 
     .experience-container > a:hover h4 {
         color: cornflowerblue;
     }
 
-     .experience-container > a svg {
+     .experience-container > a svg, .project-container > a > span:hover svg {
         transition: transform 0.3s ease;
     }
 
-    .experience-container > a:hover svg {
+    .experience-container > a:hover svg, .project-container > a > span:hover svg {
         transform: translate(2px, -2px);
     }
 
@@ -177,18 +186,14 @@
         text-decoration: none;
     }
 
-    /* .experience-container h4 {
-        font-size: 14px;
-    } */
-
-    .experience-container > a > div > span, .experience-container > a > span {
+    .experience-container > a > div > span, .experience-container > a > span, .project-container > a > span {
         display: flex;
         align-items: center;
         gap: 16px;
         color: white;
     }
 
-    .experience-container > a > div > span > svg, .experience-container > a > span svg {
+    .experience-container > a > div > span > svg, .experience-container > a > span svg, .project-container svg {
         width: 15px;
         height: 15px;
     }
@@ -253,6 +258,10 @@
             font-size: 14px;
         }
 
+        body > div:nth-of-type(2) {
+            overflow: auto;
+        }
+
     }
 
     @media only screen and (max-width: 640px) {
@@ -278,5 +287,9 @@
             width: 70%;
             height: auto;
             order: 2;
+        }
+
+        .experience-container h4 {
+            line-height: 24px;
         }
     }
