@@ -79,6 +79,10 @@
         gap: 16px;
     }
 
+    .project-container {
+        display: none;
+    }
+
     /* 
     * Left Column
     */
@@ -265,7 +269,12 @@
     @media only screen and (max-width: 1024px) {
         body {
             flex-direction: column;
-            overflow: auto;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+
+        html {
+            overflow: visible
         }
 
         body > div {
@@ -301,10 +310,13 @@
             font-size: 14px;
         }
 
-        body > div:nth-of-type(2) {
-            overflow-y: auto;
+        body > div:nth-of-type(2), body > div:nth-of-type(2) > div {
+            overflow-y: visible;
         }
 
+        body > div:nth-of-type(2) > div {
+            max-width: unset;
+        }
         #tracker {
             display: none;
         }
