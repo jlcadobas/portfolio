@@ -238,6 +238,10 @@
         height: 0px;
     }
 
+    .about-container a {
+        font-weight: bolder;
+    }
+
     /* 
     * Tracker styling
     */
@@ -317,8 +321,13 @@
         body > div:nth-of-type(2) > div {
             max-width: unset;
         }
+
         #tracker {
             display: none;
+        }
+
+        .experience-container > a {
+            padding-right: 16px;
         }
     }
 
