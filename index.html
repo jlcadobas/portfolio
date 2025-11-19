@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/images/favicon.png">
   </head>
 
   <body>
@@ -27,7 +28,7 @@
         <div class="link-container">
           <a href="#About" onclick="document.querySelector('body > div:nth-of-type(2)').scrollTo({ top: 0, behavior: 'smooth' }); return false;"> <span class="hover-bar"> </span> About </a>
           <a href="#Experience"> <span class="hover-bar"> </span> Experience </a>
-          <a href="#Projects" style="display: none;"> <span class="hover-bar"> </span> Projects </a>
+          <a href="#Projects"> <span class="hover-bar"> </span> Projects </a>
         </div>
 
         <div class="logo-container">
@@ -198,33 +199,36 @@
         <div class="project-container">
           <h3 id="Projects"> Projects </h3>
 
-          <a href="" target="_blank">
-            <img src="https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+          <a href="https://shoesy.infinityfree.me/" target="_blank">
+            <img src="/images/shoesy-featured.png" />
             <div>
-              <h4> Build Some Project </h4>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus illo aspernatur omnis aliquam aperiam repellendus suscipit possimus sapiente deleniti hic nihil temporibus consectetur dolore vero cumque, consequatur quas reiciendis! </p>
+              <span>
+                <h4> Shoesy </h4>
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <title></title>
+                      <g id="Complete">
+                        <g id="arrow-up-right"> <g>
+                          <polyline data-name="Right" fill="none" id="Right-2" points="18.7 12.4 18.7 5.3 11.6 5.3" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></polyline>
+                          <line fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" x1="5.3" x2="17.1" y1="18.7" y2="6.9"></line>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </span>
+              <p> E-commerce portfolio website that sell shoes, featuring skills on wordpress hooks, custom plugin codes and website responsiveness. </p>
               <div class="tech-labels-container">
-                <span class="tech-label"> Vue.js </span>
-                <span class="tech-label"> Laravel </span>
                 <span class="tech-label"> Wordpress </span>
+                <span class="tech-label"> Elementor </span>
+                <span class="tech-label"> Woocommerce </span>
               </div>
             </div>
           </a>
 
-          <a href="" target="_blank">
-            <img src="https://images.pexels.com/photos/1209843/pexels-photo-1209843.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-            <div>
-              <h4> Build Some Project </h4>
-              <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloribus illo aspernatur omnis aliquam aperiam repellendus suscipit possimus sapiente deleniti hic nihil temporibus consectetur dolore vero cumque, consequatur quas reiciendis! </p>
-              <div class="tech-labels-container">
-                <span class="tech-label"> Vue.js </span>
-                <span class="tech-label"> Laravel </span>
-                <span class="tech-label"> Wordpress </span>
-              </div>
-            </div>
-          </a>
-
-          <a href="">
+          <!-- <a href="">
             <span> 
               <span> View Full Resume </span>
               <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
@@ -242,7 +246,7 @@
                 </g>
               </svg>
             </span>
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
