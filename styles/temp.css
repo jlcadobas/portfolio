@@ -80,7 +80,7 @@
     }
 
     .project-container {
-        display: none;
+        display: flex;
     }
 
     /* 
@@ -159,7 +159,7 @@
         padding-bottom: 16px;
     }
 
-    .experience-container > a:hover {
+    .experience-container > a:hover, .project-container > a:hover {
         background-color: rgba(30,41,59,0.25);
         border-radius: 8px;
     }
@@ -169,15 +169,15 @@
         border-radius: 0;
     }
 
-    .experience-container > a:hover h4 {
+    .experience-container > a:hover h4, .project-container > a:hover h4 {
         color: cornflowerblue;
     }
 
-     .experience-container > a svg, .project-container > a > span:hover svg {
+     .experience-container > a svg, .project-container > a > span:hover svg, .project-container > a svg {
         transition: transform 0.3s ease;
     }
 
-    .experience-container > a:hover svg, .project-container > a > span:hover svg {
+    .experience-container > a:hover svg, .project-container > a > span:hover svg, .project-container > a:hover svg {
         transform: translate(2px, -2px);
     }
 
@@ -187,12 +187,14 @@
     }
 
     .experience-container > a > p, .project-container > a > img {
-        width: 25%;
+        margin-left: 16px;
+        margin-right: 16px;
+        width: 180px;
     }
 
     .project-container > a > img {
         /* margin: 0 16px; */
-        height: 90px;
+        height: 120px;
         border-radius: 16px;
     }
 
@@ -208,7 +210,7 @@
         text-decoration: none;
     }
 
-    .experience-container > a > div > span, .experience-container > a > span, .project-container > a > span {
+    .experience-container > a > div > span, .experience-container > a > span, .project-container > a > span, .project-container > a > div > span {
         display: flex;
         align-items: center;
         gap: 16px;
@@ -269,6 +271,14 @@
     /* 
     * Media Queries
     */
+
+    @media only screen and (min-width: 1025px) {
+        body > div:nth-of-type(2) > div {
+            display: flex;
+            flex-direction: column;
+            gap: 6rem;
+        }
+    }
 
     @media only screen and (max-width: 1024px) {
         body {
